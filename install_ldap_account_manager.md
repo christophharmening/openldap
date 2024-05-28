@@ -22,7 +22,7 @@ Now back to the main page and configure your server with "Edit Server profiles"
 
 > Set servaddresee to ldaps://ldapserver.example.net
 
-> Activate TLS = yes
+> Activate TLS = no
 
 > Tree suffix = dc=example,dc=net
 

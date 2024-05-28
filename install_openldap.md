@@ -1,5 +1,5 @@
 # Install OpenLdap Server
-Testest on Debian 12
+Tested on Debian 12
 
 ## Install Server
 

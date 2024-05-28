@@ -1,4 +1,5 @@
 # Install OpenLdap Server
+Testest on Debian 12
 
 ## Install Server
 
@@ -139,7 +140,7 @@ Restart nslcd daemon
 systemcrtl restart nslcd
 ```
 
-Check if ldap users are shown
+Check if ldap users are present
 ```
 getent passwd
 ```
@@ -199,4 +200,15 @@ Restart sssd daemon
 ```
 systemctl restart sssd
 ```
+
+Check if ldap users are present
+```
+getent passwd
+```
+
+Update your pam login to allow to create home directory on first login
+```
+pam-auth-update
+```
+
 

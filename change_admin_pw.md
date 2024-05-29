@@ -21,6 +21,6 @@ olcRootPW: {SHA} (create your own) using above step
 ```
 
 Modify Admin password 
-``
+```
 ldapmodify -H ldapi:// -Y EXTERNAL -f /etc/ldap/ldif-files/changepwd.ldif
 ```

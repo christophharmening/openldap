@@ -18,6 +18,7 @@ dn: olcDatabase={2}bdb,cn=config
 changetype: modify
 replace: olcRootPW
 olcRootPW: {SHA} (create your own) using above step
+```
 
 Modify Admin password 
 ``

@@ -19,7 +19,7 @@ slapcat -n 0 -l /backups/ldap/config.example.net-$(date +%y%m%d).ldif
 
 Backup your data
 ```
-slapcat -n 0 -l /backups/ldap/data.example.net-$(date +%y%m%d).ldif
+slapcat -n 1 -l /backups/ldap/data.example.net-$(date +%y%m%d).ldif
 ```
 Backup your Serverconfig
 ```
